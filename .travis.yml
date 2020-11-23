@@ -6,6 +6,7 @@ python:
 env:
   global:
   - PIPENV_IGNORE_VIRTULENV=1
+  - PIPENV_IGNORE_VIRTULENV=1
 
 install:
   - pip install pipenv
