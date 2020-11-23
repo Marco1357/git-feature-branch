@@ -5,6 +5,7 @@ python:
 
 env:
   global:
+  - PIPENV_IGNORE_VIRTULENV=1
   - PIPENV_VENV_IN_PROJECT=1
 
 install:
